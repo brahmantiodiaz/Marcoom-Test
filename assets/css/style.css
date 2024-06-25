@@ -1,0 +1,36 @@
+/* add your style here*/
+.section {
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+.section h2 {
+    margin-bottom: 20px;
+}
+.job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.job-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.333% - 15px);
+    box-sizing: border-box;
+    text-align: left;
+    align-self: flex-start;
+}
+.job-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: small;
+}
+
+p{
+    font-weight: 600;
+}
